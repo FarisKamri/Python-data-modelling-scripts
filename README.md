@@ -11,6 +11,7 @@ Reduce the time spent on manual calculations and report generation.
 By automating these tasks, I can ensure consistent and reliable projections, allowing more time to focus on analysis and business strategy.
 
 **Technologies**
+
 The scripts utilize:
 
 Python: For automating calculations, financial modeling, and reporting.
