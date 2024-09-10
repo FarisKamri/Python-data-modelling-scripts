@@ -1,5 +1,3 @@
-##Insert below to Python
-
 import pandas as pd
 from datetime import datetime, timedelta
 import warnings
@@ -8,13 +6,13 @@ import glob
 from pathlib import Path
 
 
-# Get the time_target
+# Get the time_target (current - 15 mins)
 current_time = datetime.now()
 time_15min = current_time - timedelta(minutes=15)
 time_target = time_15min.strftime('%H:%M')
 print(time_target)
 
-#Get the files and categorise
+#Get the recent files and categorise
 def get_files_in_directory(directory):
     return glob.glob(os.path.join(directory, '*'))
 
