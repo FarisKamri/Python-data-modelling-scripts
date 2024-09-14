@@ -1,5 +1,3 @@
-##Insert below to Python
-
 import pandas as pd
 from datetime import datetime, timedelta
 import warnings
